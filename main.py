@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
-from langdetect import detect
 from googletrans import Translator
 from collections import Counter
 import re
